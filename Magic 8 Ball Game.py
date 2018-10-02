@@ -26,7 +26,7 @@ def query():
 query()
 
 question2=input("Would you like to ask any other question? Y or N: " )
-while question2== str("Y"):
+while (question2== "Y" or question2== "y"):
     query()
     question2=input("Would you like to ask any other question? Y or N: " )
 
